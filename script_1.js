@@ -1,8 +1,5 @@
+console.log("Bonjour monde !")
 
-function factorial(n) {
-    if (n < 0) return;
-    if (n < 2) return 1;
-    return n * factorial(n - 1);
-}
+let nom = prompt("Entrez votre prénom s'il vous plaît :", "Alice");
 
-console.log("Le résultat est: " + factorial(number));
+console.log("Bonjour " + nom + " !")
